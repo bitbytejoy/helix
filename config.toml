@@ -1,0 +1,19 @@
+theme = "gruvbox_dark_hard"
+
+[editor]
+line-number = "relative"
+rulers = [80]
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace]
+render = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "-"
