@@ -1,11 +1,10 @@
 [[language]]
 name = "typescript"
-formatter = { command = 'prettier', args = ["--parser", "typescript", "--use-tabs", "true", "--tab-width", "2"] }
-indent = { tab-width = 2, unit = "\t" }
+formatter = { command = 'prettier', args = ["--parser", "typescript", "--tab-width", "4"] }
+indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "text-files"
 scope = "source.txt"
 file-types = ["txt"]
-indent = { tab-width = 2, unit = "\t" }
-
+indent = { tab-width = 2, unit = "  " }
